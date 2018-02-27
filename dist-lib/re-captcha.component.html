@@ -1,0 +1,17 @@
+<div class="alert alert-danger" [class.d-none]="!error">
+  Wrong image selected! Try again.
+</div>
+<div *ngIf="candicateImage">
+ Please Select : <span class="cap-candidatetext">{{candicateImage.en_Name}}</span>
+</div>
+<ng-container *ngFor="let image of imagesList">
+  <span class="fa-stack fa-2x cap" [class.selected]="image.selected" (click)="selectImageEvent(image)">
+    <i class="far fa-square fa-stack-2x cap-icon-frame"></i>
+    <i class="{{image.icon}} fa-stack-1x cap-icon"></i>
+  </span>
+</ng-container>
+<div>
+  <button type="button" class="btn btn-outline-secondary btn-sm" (click)="refresh()">
+    <i class="fas fa-sync"></i>
+  </button>
+</div>

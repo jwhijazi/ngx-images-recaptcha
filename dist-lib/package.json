@@ -1,0 +1,29 @@
+{
+  "name": "images-recaptcha",
+  "version": "1.0.0",
+  "description": "Use Images Selection to add re-Captcha functionality to your form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwhijazi/ngx-images-recaptcha"
+  },
+  "keywords": [
+    "Angular",
+    "Angular5",
+    "Library",
+    "Re-Captcha",
+    "Images Re-Captcha",
+    "Font Awesome 5",
+    "Bootstrap 4"
+  ],
+  "author": "jalal_just@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwhijazi/ngx-images-recaptcha/issues"
+  },
+  "homepage": "https://github.com/jwhijazi/ngx-images-recaptcha",
+  "types": "index.d.ts"
+}

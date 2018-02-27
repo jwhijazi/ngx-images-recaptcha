@@ -1,0 +1,33 @@
+.cap:hover{
+    cursor: pointer;
+}
+.cap .cap-icon-frame{
+    color:#c0d9f1;
+}
+
+.cap:hover .cap-icon-frame{
+    color:#74abe0;
+    text-shadow: 1pt 1pt 1pt #ccc;
+}
+
+.cap .cap-icon{
+    color:#8db7e0;
+}
+
+.cap:hover .cap-icon{
+    color:#74abe0;
+    text-shadow: 1pt 1pt 1pt #ccc;
+}
+
+.cap-candidatetext{
+    color: #74abe0;
+    font-weight: bold;
+}
+
+.cap.selected .cap-icon-frame{
+    color:red;
+}
+
+.cap.selected .cap-icon{
+    color:red;
+}
